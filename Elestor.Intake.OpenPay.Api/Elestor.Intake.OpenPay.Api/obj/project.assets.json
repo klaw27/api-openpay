@@ -13074,11 +13074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/miguelvazquez/Documents/ELESTOR/openpay-api/OpenPay-ElEstore/-Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api.csproj",
+      "projectUniqueName": "/Users/miguelvazquez/Documents/ELESTOR/openpay-api/api-openpay/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api.csproj",
       "projectName": "Elestor.Intake.OpenPay.Api",
-      "projectPath": "/Users/miguelvazquez/Documents/ELESTOR/openpay-api/OpenPay-ElEstore/-Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api.csproj",
+      "projectPath": "/Users/miguelvazquez/Documents/ELESTOR/openpay-api/api-openpay/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api.csproj",
       "packagesPath": "/Users/miguelvazquez/.nuget/packages/",
-      "outputPath": "/Users/miguelvazquez/Documents/ELESTOR/openpay-api/OpenPay-ElEstore/-Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/obj/",
+      "outputPath": "/Users/miguelvazquez/Documents/ELESTOR/openpay-api/api-openpay/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
