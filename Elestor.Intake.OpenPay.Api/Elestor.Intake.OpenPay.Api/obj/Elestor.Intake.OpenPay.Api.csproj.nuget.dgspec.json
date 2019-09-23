@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/miguelvazquez/Documents/ELESTOR/openpay-api/OpenPay-ElEstore/-Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/miguelvazquez/Documents/ELESTOR/openpay-api/OpenPay-ElEstore/-Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/miguelvazquez/Documents/ELESTOR/openpay-api/OpenPay-ElEstore/-Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api.csproj",
+        "projectName": "Elestor.Intake.OpenPay.Api",
+        "projectPath": "/Users/miguelvazquez/Documents/ELESTOR/openpay-api/OpenPay-ElEstore/-Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api.csproj",
+        "packagesPath": "/Users/miguelvazquez/.nuget/packages/",
+        "outputPath": "/Users/miguelvazquez/Documents/ELESTOR/openpay-api/OpenPay-ElEstore/-Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/Elestor.Intake.OpenPay.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/miguelvazquez/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.SlowCheetah": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.20, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.5.2, )"
+            },
+            "Openpay": {
+              "target": "Package",
+              "version": "[1.0.24, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

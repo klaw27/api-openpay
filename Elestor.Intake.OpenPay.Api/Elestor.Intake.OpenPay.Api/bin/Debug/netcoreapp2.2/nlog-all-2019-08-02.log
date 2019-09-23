@@ -1,0 +1,106 @@
+2019-08-02 18:31:05.8579|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting Customer.
+2019-08-02 18:37:16.4880|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.
+2019-08-02 18:42:17.2913|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.
+2019-08-02 18:59:21.6423|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting Customer.
+2019-08-02 18:59:34.4387|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting Customer.
+2019-08-02 19:11:22.6261|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting Customer.
+2019-08-02 19:11:23.4958|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while getting customer.System.Net.WebException: The SSL connection could not be established, see inner exception. Authentication failed, see inner exception. ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception. ---> System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception. ---> System.ComponentModel.Win32Exception: Mensaje recibido inesperado, o bien su formato es incorrecto
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslState.ThrowIfExceptional()
+   at System.Net.Security.SslState.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslState.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsClient(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsClientAsync>b__47_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Get[T](String endpoint)
+   at Openpay.OpenpayResourceService`2.Get(String customer_id, String resource_id)
+   at Openpay.CustomerService.Get(String customer_id)
+   at Elestor.Intake.OpenPay.Api.Controllers.GetCustomerController.GetCustomer(String customer_id) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\GetCustomerController.cs:line 35
+2019-08-02 19:11:53.9842|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting Customer.
+2019-08-02 19:22:35.1184|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting Customer.
+2019-08-02 19:22:36.2595|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while getting customer.Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'Openpay.Entities.Customer' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path '', line 1, position 1.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Openpay.OpenpayHttpClient.Get[T](String endpoint)
+   at Openpay.OpenpayResourceService`2.Get(String customer_id, String resource_id)
+   at Openpay.CustomerService.Get(String customer_id)
+   at Elestor.Intake.OpenPay.Api.Controllers.GetCustomerController.GetCustomer(String customer_id) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\GetCustomerController.cs:line 35
+2019-08-02 19:26:23.8762|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.
+2019-08-02 19:59:41.1771|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.
+2019-08-02 20:08:14.1305|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.
+2019-08-02 20:16:42.1568|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.
+2019-08-02 20:53:35.6155|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.
+2019-08-02 21:03:02.6954|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.
+2019-08-02 21:03:42.8901|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.
+2019-08-02 21:18:56.6494|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-02 21:18:57.5510|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.Openpay.OpenpayException: 1001: email no puede estar vacío, name no puede estar vacío
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.CustomerService.Create(Customer customer)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 48
+2019-08-02 21:22:17.3577|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-02 21:22:18.1855|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.Openpay.OpenpayException: 1003: Token ID does not exist
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.CardService.Create(Card card)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 48
+2019-08-02 21:29:50.1391|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-02 21:29:50.9900|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.Openpay.OpenpayException: 1001: card_number is required, holder_name is required, expiration_month is required
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.CardService.Create(String customer_id, Card card)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(String id, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 48
+2019-08-02 21:47:36.0193|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|customerCannot be null.
+2019-08-02 21:49:08.3124|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|customerCannot be null.
+2019-08-02 21:50:47.4763|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|customerCannot be null.
+2019-08-02 21:53:49.1552|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|customerCannot be null.
+2019-08-02 21:54:53.0676|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|customerCannot be null.
+2019-08-02 22:00:24.6349|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|customerCannot be null.
+2019-08-02 22:02:28.7648|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.
+2019-08-02 22:07:12.8144|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.
+2019-08-02 23:07:08.0938|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.
+2019-08-02 23:10:31.1510|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.
+2019-08-02 23:10:53.6583|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting Customer.
+2019-08-02 23:11:40.6499|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting Customer.
+2019-08-02 23:25:26.4469|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.
+2019-08-02 23:28:55.5109|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Customer.

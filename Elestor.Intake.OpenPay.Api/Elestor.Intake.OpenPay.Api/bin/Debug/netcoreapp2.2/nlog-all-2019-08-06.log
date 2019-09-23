@@ -1,0 +1,39 @@
+2019-08-06 17:12:20.2085|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-06 17:12:21.6119|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1001: Please specify card info
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 57
+2019-08-06 17:14:30.9667|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-06 17:14:31.7972|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1001: Attribute device_session_id is required
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 57
+2019-08-06 17:16:05.5672|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-06 17:16:06.5276|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: The amount must be greater than zero.
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 57
+2019-08-06 17:17:54.9823|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-06 17:21:58.1174|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-06 17:21:58.1174|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-06 17:22:11.0059|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: The amount must be greater than zero.
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 57
+2019-08-06 17:22:11.0059|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: The amount must be greater than zero.
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 57
+2019-08-06 17:22:24.2868|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-06 17:28:13.5928|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-06 17:28:42.4783|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.

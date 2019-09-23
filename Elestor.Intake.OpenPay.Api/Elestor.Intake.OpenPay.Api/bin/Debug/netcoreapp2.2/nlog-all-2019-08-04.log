@@ -1,0 +1,174 @@
+2019-08-04 16:03:30.4438|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-04 16:03:31.8009|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.Openpay.OpenpayException: 1001: Attribute device_session_id is required
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.CardService.Create(String customer_id, Card card)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(CardToken cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 54
+2019-08-04 16:04:35.5737|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-04 16:06:15.5188|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-04 16:08:41.2571|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-04 16:58:15.7332|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:03:53.2424|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:05:19.0355|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:11:54.8470|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:12:16.4482|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:15:10.8613|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:15:29.4234|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:21:33.8058|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:27:13.9194|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:28:23.4279|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:30:39.3400|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:34:58.2851|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:37:21.0078|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:47:12.1095|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:47:52.7098|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:48:28.0842|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:54:07.5864|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:54:44.5813|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:56:04.4652|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:58:22.8731|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 17:59:45.8304|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 18:02:15.9734|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 18:05:21.0769|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 18:06:12.7370|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 18:07:30.8999|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-04 18:07:32.4846|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 18:07:58.3973|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 18:11:56.0203|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 18:53:51.2634|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 19:47:59.6723|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 19:48:00.2466|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while getting Cards.System.Net.WebException: The SSL connection could not be established, see inner exception. Authentication failed, see inner exception. ---> System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception. ---> System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception. ---> System.ComponentModel.Win32Exception: Mensaje recibido inesperado, o bien su formato es incorrecto
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslState.ThrowIfExceptional()
+   at System.Net.Security.SslState.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslState.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsClient(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsClientAsync>b__47_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Get[T](String endpoint)
+   at Openpay.OpenpayResourceService`2.List(String customer_id, SearchParams searchParams)
+   at Openpay.CardService.List(String customer_id, SearchParams filters)
+   at Elestor.Intake.OpenPay.Api.Controllers.GetCarsCustomerController.GetListCars(String customer_id) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\GetCarsCustomerController.cs:line 40
+2019-08-04 19:48:34.4602|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 19:52:30.1459|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 19:59:47.5593|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:07:00.0804|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:08:59.0864|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:11:48.0630|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:14:38.3872|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:17:34.7064|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:18:13.3373|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:18:51.5292|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:26:51.1862|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:28:11.2824|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:46:13.3397|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:46:17.9036|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 20:46:18.3543|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while deleting card.System.ArgumentNullException: Value cannot be null.
+Parameter name: The id of the object cannot be null
+   at Openpay.OpenpayResourceService`2.Delete(String customer_id, String resource_id)
+   at Openpay.CardService.Delete(String customer_id, String card_id)
+   at Elestor.Intake.OpenPay.Api.Controllers.RemoveCardController.RemoveCardCustomer(DeleteCard DeleteCard) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\RemoveCardController.cs:line 45
+2019-08-04 20:48:14.4026|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 20:48:14.4505|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while deleting card.System.ArgumentNullException: Value cannot be null.
+Parameter name: The id of the object cannot be null
+   at Openpay.OpenpayResourceService`2.Delete(String customer_id, String resource_id)
+   at Openpay.CardService.Delete(String customer_id, String card_id)
+   at Elestor.Intake.OpenPay.Api.Controllers.RemoveCardController.RemoveCardCustomer(DeleteCard DeleteCard) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\RemoveCardController.cs:line 45
+2019-08-04 20:49:51.4563|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:50:03.6827|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 20:50:03.8416|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while deleting card.System.ArgumentNullException: Value cannot be null.
+Parameter name: The id of the object cannot be null
+   at Openpay.OpenpayResourceService`2.Delete(String customer_id, String resource_id)
+   at Openpay.CardService.Delete(String customer_id, String card_id)
+   at Elestor.Intake.OpenPay.Api.Controllers.RemoveCardController.RemoveCardCustomer(DeleteCard DeleteCard) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\RemoveCardController.cs:line 45
+2019-08-04 20:51:08.0993|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:51:11.3026|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 20:51:11.7409|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while deleting card.Openpay.OpenpayException: 1005: The customer with id 'cards' does not exist
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Delete(String endpoint)
+   at Openpay.OpenpayResourceService`2.Delete(String customer_id, String resource_id)
+   at Openpay.CardService.Delete(String customer_id, String card_id)
+   at Elestor.Intake.OpenPay.Api.Controllers.RemoveCardController.RemoveCardCustomer(DeleteCard DeleteCard) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\RemoveCardController.cs:line 45
+2019-08-04 20:51:39.1735|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:51:41.7312|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 20:52:28.1796|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:55:13.6060|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:55:19.2501|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 20:55:32.3009|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:56:30.5671|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:56:34.6548|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 20:56:35.0896|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:56:42.0254|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 20:56:42.5125|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:56:48.0703|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 20:56:48.5472|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 20:57:01.4362|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 20:57:01.8942|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:00:34.7765|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:00:38.6115|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 21:01:45.5998|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:01:52.1487|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 21:01:52.6736|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:03:26.3179|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-04 21:03:33.7585|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:03:50.7977|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 21:04:36.2563|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:04:44.7501|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 21:04:45.2902|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:06:10.9829|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:06:41.8641|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:07:00.3123|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:07:39.5238|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-04 21:07:43.2687|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:10:05.4186|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:11:19.3161|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:11:27.9082|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 21:11:28.6911|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:11:51.1954|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:13:54.9403|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:14:39.8788|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:14:56.6717|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-04 21:14:59.0950|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:15:07.9210|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 21:15:08.6050|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:15:48.4152|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-04 21:15:52.6121|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:16:51.3203|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:18:10.7051|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:18:15.0029|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:18:18.1560|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Deleting Card to customer.
+2019-08-04 21:18:18.6142|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:18:40.8986|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-04 21:18:44.4500|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:18:52.1428|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-04 21:19:24.7514|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.

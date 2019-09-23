@@ -1,0 +1,231 @@
+2019-08-05 17:53:03.4060|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 17:54:12.0698|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 17:55:31.7527|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 17:55:44.9718|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 17:56:22.5182|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 17:59:36.3714|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:04:00.7947|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:05:41.1654|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:06:29.8726|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:15:03.9027|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:15:14.7099|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:15:53.1839|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:16:00.6154|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:18:45.3912|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:23:49.4238|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:31:09.9843|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:31:55.2949|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:32:39.2988|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:33:29.0450|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:35:15.8574|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:35:25.2381|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:39:50.8712|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:49:49.9845|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:50:02.1351|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 18:50:13.9357|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 19:22:20.5731|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 19:23:04.3928|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 19:23:11.0571|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 19:28:58.8226|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-05 19:30:24.0575|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 19:31:09.9992|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 19:58:57.9849|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 20:15:53.4620|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 20:18:14.2616|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 20:19:34.6756|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 20:20:52.3927|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 20:22:33.5343|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 20:29:14.3342|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 20:54:49.3034|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 20:54:57.3397|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 20:54:57.9615|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 56
+2019-08-05 21:00:32.9473|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|ChargeDataCannot be null.
+2019-08-05 21:05:25.4641|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:05:26.2799|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 56
+2019-08-05 21:08:19.2431|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:08:19.7438|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 56
+2019-08-05 21:21:25.7088|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:21:26.7814|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 56
+2019-08-05 21:28:35.2621|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 21:28:42.2502|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:28:42.7251|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 57
+2019-08-05 21:30:25.6696|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:30:26.2167|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 57
+2019-08-05 21:31:01.1924|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:31:01.5444|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 57
+2019-08-05 21:31:55.7419|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:31:56.2615|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 57
+2019-08-05 21:32:43.4272|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 21:32:49.9361|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:32:50.3711|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 57
+2019-08-05 21:38:44.0560|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:38:44.4725|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 57
+2019-08-05 21:40:13.2454|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:40:13.9314|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 57
+2019-08-05 21:42:40.8935|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:42:41.4416|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 57
+2019-08-05 21:44:25.2109|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:44:26.1178|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 58
+2019-08-05 21:48:11.9082|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:48:12.7848|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1001: Please specify card info
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 65
+2019-08-05 21:50:11.6703|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:50:13.0992|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: Please specify a valid source_id
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 66
+2019-08-05 21:51:39.9435|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-05 21:52:01.0142|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 21:52:10.8015|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 21:52:40.0716|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:52:40.5893|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: Please specify a valid source_id
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 66
+2019-08-05 21:55:46.7828|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:57:44.6850|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 21:58:28.7793|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 66
+2019-08-05 22:03:31.1240|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 22:04:06.3350|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 66
+2019-08-05 22:07:18.0834|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 22:07:18.9252|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: Please specify a valid source_id
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 66
+2019-08-05 22:09:05.5391|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 22:09:06.3807|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 66
+2019-08-05 22:09:44.4256|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 22:09:44.7722|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: Please specify a valid source_id
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 66
+2019-08-05 22:10:40.8097|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 22:10:41.3136|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 66
+2019-08-05 22:13:13.4271|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 22:13:14.0055|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: You must not send customer data
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(String customer_id, ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 66
+2019-08-05 22:23:09.4626|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 22:23:10.4437|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: Please specify a valid source_id
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 63
+2019-08-05 22:24:10.9629|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 22:24:30.5745|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|ChargeDataCannot be null.
+2019-08-05 22:24:47.5553|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 22:24:47.9283|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: Please specify a valid source_id
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 63
+2019-08-05 22:27:57.0228|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Getting List Cards.
+2019-08-05 22:28:07.0178|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding charge to customer.
+2019-08-05 22:28:07.4830|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding charge.Openpay.OpenpayException: 1003: Please specify a valid source_id
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.ChargeService.Create(ChargeRequest charge_request)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddChargeController.AddCharge(ChargeToken ChargeData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddChargeController.cs:line 63

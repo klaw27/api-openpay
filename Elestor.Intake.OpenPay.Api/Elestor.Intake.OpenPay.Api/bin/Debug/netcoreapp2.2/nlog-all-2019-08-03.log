@@ -1,0 +1,65 @@
+2019-08-03 00:35:52.7976|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 00:35:53.0098|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.System.NullReferenceException: Object reference not set to an instance of an object.
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer idCustumer, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 49
+2019-08-03 00:38:42.6610|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 00:39:42.7322|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.System.NullReferenceException: Object reference not set to an instance of an object.
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer idCustumer, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 49
+2019-08-03 00:47:11.9990|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 00:47:13.0653|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.Openpay.OpenpayException: 1005: The customer with id 'null' does not exist
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.CardService.Create(String customer_id, Card card)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer idCustumer, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 54
+2019-08-03 00:51:36.5960|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 00:51:36.7982|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.System.NullReferenceException: Object reference not set to an instance of an object.
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer idCustumer, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 47
+2019-08-03 00:52:43.9775|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 00:52:44.1878|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.System.NullReferenceException: Object reference not set to an instance of an object.
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer idCustumer, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 47
+2019-08-03 00:53:16.6947|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 00:53:16.7645|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.System.NullReferenceException: Object reference not set to an instance of an object.
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer idCustumer, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 47
+2019-08-03 00:54:51.4054|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 00:54:51.6216|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.System.NullReferenceException: Object reference not set to an instance of an object.
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer idCustumer, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 47
+2019-08-03 00:55:54.8027|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 00:55:54.8922|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.System.NullReferenceException: Object reference not set to an instance of an object.
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer idCustumer, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 47
+2019-08-03 00:56:32.4896|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 00:56:32.5467|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.System.NullReferenceException: Object reference not set to an instance of an object.
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer idCustumer, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 47
+2019-08-03 00:57:15.9130|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 00:57:16.1280|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.System.NullReferenceException: Object reference not set to an instance of an object.
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer idCustumer, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 47
+2019-08-03 00:59:44.2146|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 00:59:44.3037|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.System.NullReferenceException: Object reference not set to an instance of an object.
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer idCustumer, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 47
+2019-08-03 01:01:03.6702|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 01:01:04.4374|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.Openpay.OpenpayException: 1001: card_number is required, holder_name is required, expiration_month is required
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.CardService.Create(String customer_id, Card card)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer idCustumer, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 48
+2019-08-03 01:01:49.6359|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 01:01:50.0133|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.Openpay.OpenpayException: 1001: card_number is required, holder_name is required, expiration_month is required
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.CardService.Create(String customer_id, Card card)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer idCustumer, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 48
+2019-08-03 01:05:37.1246|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 01:05:37.9998|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.Openpay.OpenpayException: 1001: card_number is required, holder_name is required, expiration_month is required
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.CardService.Create(String customer_id, Card card)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(Customer idCustumer, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 52
+2019-08-03 01:19:47.3541|INFO|Elestor.Intake.OpenPay.Api.Log.Log|Adding Card to customer.
+2019-08-03 01:19:48.2740|ERROR|Elestor.Intake.OpenPay.Api.Log.Log|Exception while adding card.Openpay.OpenpayException: 1001: card_number is required, holder_name is required, expiration_month is required
+   at Openpay.OpenpayHttpClient.DoRequest(String path, HttpMethod method, String body)
+   at Openpay.OpenpayHttpClient.Post[T](String endpoint, JsonObject obj)
+   at Openpay.OpenpayResourceService`2.Create(String customer_id, T obj)
+   at Openpay.CardService.Create(String customer_id, Card card)
+   at Elestor.Intake.OpenPay.Api.Controllers.AddCardCustomerController.AddCardCustomer(String customer_id, Card cardData) in C:\Users\Administrator\Source\Repos\-Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Elestor.Intake.OpenPay.Api\Controllers\AddCardCustomerController.cs:line 50
