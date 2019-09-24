@@ -20,7 +20,7 @@ namespace Elestor.Intake.OpenPay.Api.Controllers
             _log = log ?? throw new ArgumentNullException(nameof(log), "Cannot be null.");
         }
 
-        [Authorize]
+        //[Authorize]
         [HttpPost("get")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]

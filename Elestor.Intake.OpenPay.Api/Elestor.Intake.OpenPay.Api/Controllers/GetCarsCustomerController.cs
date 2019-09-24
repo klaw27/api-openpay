@@ -14,7 +14,7 @@ namespace Elestor.Intake.OpenPay.Api.Controllers
 {
     [Produces("application/json")]
     [Route("api/card")]
-    //[Authorize]
+    //[F]
     public class GetCarsCustomerController : Controller
     {
         private readonly ILog _log;
