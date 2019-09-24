@@ -22,8 +22,6 @@ namespace Elestor.Intake.OpenPay.Api.Controllers
 
         //[Authorize]
         [HttpPost("get")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult GetCustomer([FromBody] string customer_id)
         {
             Customer customer = null;

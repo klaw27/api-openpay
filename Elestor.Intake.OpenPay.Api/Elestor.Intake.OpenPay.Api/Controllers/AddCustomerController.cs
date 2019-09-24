@@ -19,8 +19,6 @@ namespace Elestor.Intake.OpenPay.Api.Controllers
         }
 
         [HttpPost("add")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult AddCustomer([FromBody] Customer customer)
 
         {

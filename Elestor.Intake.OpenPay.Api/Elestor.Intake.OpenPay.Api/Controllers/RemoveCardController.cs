@@ -23,8 +23,6 @@ namespace Elestor.Intake.OpenPay.Api.Controllers
         }
 
         [HttpPost("delete")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
 
         public IActionResult RemoveCardCustomer([FromBody] DeleteCard DeleteCard)
         {
